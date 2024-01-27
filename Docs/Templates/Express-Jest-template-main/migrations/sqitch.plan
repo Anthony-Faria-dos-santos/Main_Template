@@ -1,0 +1,5 @@
+%syntax-version=1.0.0
+%project=gyozaFleuriste
+
+gyozaFleuriste 2024-01-08T13:42:23Z gyoza <gyoza@gyoza.io> # premiere migration
+regex 2024-01-08T14:21:24Z gyoza <gyoza@gyoza.io> # ajout d'une regex pour l'email

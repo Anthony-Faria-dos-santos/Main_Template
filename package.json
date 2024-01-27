@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "@faker-js/faker": "^8.4.0",
+    "cluster": "^0.7.7",
+    "nodemon": "^3.0.3"
+  },
+  "name": "ultimate-js",
+  "version": "1.0.0",
+  "main": "./index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "clusterDefault": "node clustersCount.test.js",
+    "cluster4096": "node --max-old-space-size=4096 clustersCount.test.js"
+  },
+  "author": "Faria dos santos Anthony",
+  "license": "ISC",
+  "description": "Template de developement pour NodeJS",
+  "devDependencies": {
+    "@types/eslint": "^8.56.2",
+    "eslint": "^8.56.0"
+  }
+}
